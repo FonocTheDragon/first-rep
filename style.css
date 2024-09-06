@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+body{
+    font-family: "Gluten", cursive;
+    margin: 0;
+    background-color: #D7FADB;
+}
+header{
+    min-height: 100px;
+    background-color: #6FB48A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+header>nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #28453B;
+    padding: 5px;
+    border-radius: 20px;
+}
+body>nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+body>nav{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    background-color: #28453B;
+    padding: 5px;
+    border-radius: 20px
+}
